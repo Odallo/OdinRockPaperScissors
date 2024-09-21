@@ -1,4 +1,4 @@
-function computerChoice(){
+computerChoice(){
     let random = Math.floor(Math.random() * 3);
     if (random === 0){
         return "rock";
